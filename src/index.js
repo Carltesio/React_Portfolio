@@ -5,6 +5,7 @@ import Hello from "./Hello";
 import Header from "./Header";
 import Footer from "./Footer";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
+import Projects from "./Projects" 
 
 const App = () => {
   return (
