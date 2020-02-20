@@ -4,9 +4,9 @@ const ProjectCard = ({ project }) => {
   return (
     <>
       <div class="ui card">
-        <div class="image">
-          <img src={project.image} />
-        </div>
+        <a class="image" href={project.link}>
+            <img src={project.image}/>
+        </a>
         <div class="content">
           <h3 class="ui header">{project.name}</h3>
 
