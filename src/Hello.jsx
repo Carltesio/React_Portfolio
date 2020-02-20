@@ -2,8 +2,20 @@ import React from "react";
 
 const Hello = () => {
   return (
-    <div className="ui main container">
-      <h1 id="hello">Hello World</h1>
+
+    <div className=" ui fluid image" 
+    style={{ 
+      background: 'url("./src/pic/background.jpg")', 
+      backgroundSize: 'cover', 
+      height: '120vh', 
+      marginTop: '-15rem',
+      display: 'flex',
+      alignItems: 'bottom'
+      }}>
+
+
+
+     
     </div>
   );
 };
