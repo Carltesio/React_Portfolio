@@ -32,7 +32,7 @@ const Header = () => {
             activeStyle={{ fontWeight: "bold" }}
             to="/contacts"
           >
-            Test
+            Contacts
           </NavLink>
 
         </div>
