@@ -1,34 +1,19 @@
-#icon {
-    height: fit-content;
-    width: fit-content;
-  }
+.footer {
 
-   #footer {
-        position: relative;
-        bottom: 0;
-        width: 100%;
-        height: 10px;
-        padding-top: 0px;
-        padding-bottom: 40px;
-        background-color:grey;
-        margin-top: 00;
-        margin-bottom: 0 ;
-        text-align: center;
-      }
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
 
-      #container {
+      
 
-        position: relative;
-        height: 60px
-
-      }
-  
-
-
-         #centered {
-          position: absolute;
-          bottom: 100;
-          top: 30%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-        } 
+  #container-footer {
+  position: absolute;
+  bottom: 100;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 

@@ -5,14 +5,19 @@ const Hello = () => {
 
   
    
-      <div className="ui main container">
+    
 
-      <img className="ui fluid image"
-      src="./src/pic/background.jpg"></img>
+     
 
+
+<div className="hero-image hero-about" style={{ background: 'url("./src/pic/background.jpg")', backgroundSize: 'cover', height: '95vh'}}>
+
+
+        
+        
+     
     
       
-      <div className="centered">Welcome to my Portfolio</div>
  
     </div>
         
