@@ -18,15 +18,15 @@ const Footer = () => {
             </a>
           
             <a href="https://www.instagram.com/omar_d_b/" >
-              <button class="ui instagram button">
-                <i class="instagram icon"></i>
+              <button className="ui instagram button">
+                <i className="instagram icon"></i>
                 Instagram
               </button>
             </a>
 
             <a href= "http://linkedin.com/in/carlos-omar-delgado-03168083" >
-              <button class="ui linkedin button">
-                <i class="linkedin icon"></i>
+              <button className="ui linkedin button">
+                <i className="linkedin icon"></i>
                 LinkedIn
               </button>
             </a>
