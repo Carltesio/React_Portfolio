@@ -25,9 +25,30 @@ const Header = () => {
           >
             Projects
           </NavLink>
+
+          <NavLink
+            id="contacs-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/contacts"
+          >
+            Contacts
+          </NavLink>
+
+          <NavLink
+            id="curriculum-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/curriculum"
+          >
+            Curriculum
+          </NavLink>
+
         </div>
       </div>
     </nav>
+
+    
   );
 };
 

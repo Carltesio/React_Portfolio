@@ -2,9 +2,29 @@ import React from "react";
 
 const Hello = () => {
   return (
-    <div className="ui main container">
-      <h1 id="hello">Hello World</h1>
+
+  
+   
+    
+
+     
+
+
+<div className="hero-image hero-about" style={{ background: 'url("./src/pic/background.jpg")', backgroundSize: 'cover', height: '95vh'}}>
+
+
+        
+        
+     
+    
+      
+ 
     </div>
+        
+    
+
+
+     
   );
 };
 
