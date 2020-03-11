@@ -22,7 +22,11 @@ const CurriculumContent = () => {
                         <Text>Hello World</Text>
                     </View>
                     <View style={styles.section}>
-                        <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iusto vero nisi ipsam quisquam nam. Reprehenderit, quas. Unde autem ad molestias, non fuga eos vitae est doloremque repellendus odit voluptate.</Text>
+                        <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quia iusto vero nisi ipsam quisquam nam. Reprehenderit, quas. 
+                            Unde autem ad molestias, 
+                            non fuga eos vitae est doloremque repellendus odit voluptate.
+                        </Text>
                     </View>
                 </Page>
             </Document>
