@@ -4,17 +4,21 @@ import React, { Component } from "react";
 
   state = {
     image: [
+      "/src/pic/IMG_1696.png",
+      "/src/pic/file.jpeg",
+      "/src/pic/IMG_1696.png",
       "/src/pic/file.jpeg",
       "/src/pic/IMG_1696.png"
     ],
-
     idx: 0
   }
 
-  handleNext = () => {
-    this.setState({
-      idx: this.state.idx + 1
-    })
+ onNextClick = () => {
+   if(this.state.idx < 3){
+    this.setState({idx: this.state.idx + 1})
+   } else {
+     this.setState({idx: 0})
+   }
   };
 
   render() {
@@ -49,7 +53,7 @@ import React, { Component } from "react";
           width:700,
           paddingLeft:300
         }} ></img>
-        <button onClick={this.handleNext}>next</button>
+        <button onClick={this.onNextClick}>next</button>
 
         </div>
       </div>
