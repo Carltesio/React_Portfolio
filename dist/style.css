@@ -1,5 +1,25 @@
-#icon {
-    height: fit-content;
-    width: fit-content;
-  }
-  
+.footer {
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+      
+
+  #container-footer {
+  position: absolute;
+  bottom: 100;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+#list{
+  padding: 6rem;
+ position: absolute;
+
+}

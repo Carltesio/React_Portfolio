@@ -3,21 +3,21 @@
       "id": 1,
       "name": "My Portfolio",
       "image": "/src/pic/IMG_1696.png",
-      "description": "This was my first project. The guy lost, but won the popular vote!",
+      "description": "My projects as Software Developer.",
       "link": "https://google.com"
     },
     {
       "id": 2,
       "name": "Product Development in Wearable Tech",
       "image": "/src/pic/Icub.jpg",
-      "description": "Wearable Tech applied to the medical, automotive, outdoor and fashion industry.",
+      "description": "My projects in the smart textile area.",
       "link": "http://www.o-range.com/en/projects/"
     },
     {
       "id": 3,
-      "name": "Mobile Apps",
+      "name": "My own ventures",
       "image": "/src/pic/IMG_1651.PNG",
-      "description": "I love creating App solutions for my Customers. We are currently developing our solution for the metal workers in the construction industry",
+      "description": "Personal researches, business developments and Startups",
       "link": "https://www.cartesiometrics.com/our-offer"
     }
-  ]
+]

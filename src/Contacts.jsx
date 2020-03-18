@@ -3,14 +3,14 @@ import axios from "axios";
 import ProjectCard from "./ProjectCard";
 
 
-class Projects extends Component {
+class Contacts extends Component {
   state = {
     projects: []
   };
 
 
   componentDidMount() {
-    axios.get('./src/data/projects.json')
+    axios.get('./src/data/CVData.json')
       .then(response => {
         this.setState({
           projects: response.data
@@ -35,18 +35,17 @@ class Projects extends Component {
 
     return (
       <div className="ui main container">
-
-        <div className="column">
-          <h1 className="ui header">My Projects</h1>
-          <div>I will gather in this section the different projects I have been part of as a Owner, cofounder or collaborator.{"\n"}</div>
-
-
-
-        </div>
-        <div className="ui stackable three column grid" id = "list">{projectsList}</div>
-      </div>
-    );
+    
+      <div className="column">
+        <h1 className="ui header">My Projects</h1>
+        <p>
+            I will display a fake Cv field here        </p>
+    
+    </div>
+    <div className="ui stackable three column grid">{projectsList}</div>
+  </div>
+  );
   }
 }
 
-export default Projects;
+export default Contacts;
