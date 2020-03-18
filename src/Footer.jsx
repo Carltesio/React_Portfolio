@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 
 
 
@@ -8,7 +9,7 @@ const Footer = () => {
   return (
     <footer>
      
-      <div className="ui footer">
+      <div className="ui footer" >
 
             <a href="https://github.com/Carltesio" >
               <button className="ui github button">
