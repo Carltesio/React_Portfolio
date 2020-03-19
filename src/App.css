@@ -1,0 +1,16 @@
+#Main-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #projects {
+    padding-bottom: 2.5rem;    /* Footer height */
+  
+
+  }
+  
+.footer {
+    background: transparent;
+    bottom: 0;
+    position: relative;
+  }

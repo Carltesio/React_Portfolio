@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
 import ProjectCard from "./ProjectCard";
-import { UndrawDashboard } from "react-undraw-illustrations";
 
 
 class Projects extends Component {
@@ -36,17 +35,18 @@ class Projects extends Component {
 
     return (
       <div className="ui main container">
-    
-      <div className="column">
-        <h1 className="ui header">My Projects</h1>
-        <p>
-         I will gather in this section the different projects I have been part of as a Owner, cofounder or collaborator.
-        </p>
-    
-    </div>
-    <div className="ui stackable three column grid">{projectsList}</div>
-  </div>
-  );
+
+          <h1 className="ui header">My Projects</h1>
+          <h1>I will gather in this section the different projects I have been part of as a Owner, cofounder or collaborator.{"\n"}</h1>
+
+          <div className="ui grid">{projectsList}</div>
+
+
+
+
+   
+     </div>
+    );
   }
 }
 
