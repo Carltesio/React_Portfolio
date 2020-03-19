@@ -5,12 +5,12 @@
   
   #projects {
     padding-bottom: 2.5rem;    /* Footer height */
-    background: black;
+  
 
   }
   
 .footer {
-    background: white;
+    background: transparent;
     bottom: 0;
-    padding-top: 1rem;
+    position: relative;
   }
