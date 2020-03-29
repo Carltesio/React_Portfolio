@@ -26,11 +26,19 @@ const Header = () => {
             Projects
           </NavLink>
 
+          <NavLink
+            id="GeekArea-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/GeekArea"
+          >
+            Geeks Area
+          </NavLink>
+
         </div>
       </div>
     </nav>
 
-    
   );
 };
 
