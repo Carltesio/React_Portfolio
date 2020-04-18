@@ -2,12 +2,10 @@ import React, { Component } from "react";
 import axios from "axios";
 import ProjectCard from "./ProjectCard";
 
-
 class Projects extends Component {
   state = {
     projects: []
   };
-
 
   componentDidMount() {
     axios.get('./src/data/projects.json')
@@ -17,7 +15,6 @@ class Projects extends Component {
         })
       })
   }
-
 
   render() {
     const projects = this.state.projects;
@@ -41,10 +38,6 @@ class Projects extends Component {
 
           <div className="ui grid">{projectsList}</div>
 
-
-
-
-   
      </div>
     );
   }
