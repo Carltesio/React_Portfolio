@@ -8,7 +8,7 @@ class About extends Component {
         <img className="ui background image" src="/src/pic/bergen.jpg" ></img>
         <h1 className="ui header" >About Me</h1>
         <Grid>
-          <Grid.Column width={4}>
+          <Grid.Column width={6}>
             <p>
               Thanks for visiting my Portfolio webpage. <br></br>
 
@@ -18,7 +18,7 @@ class About extends Component {
                 I am a life lover, I love to exercise outdoors,travel and understand how the "other" thinks.
               </p>
           </Grid.Column>
-          <Grid.Column floated = 'right' width={3}>
+          <Grid.Column floated = 'right' width={7}>
           <img src="/src/pic/carlos-erik.jpeg" ></img>
           </Grid.Column>
         </Grid>
@@ -27,19 +27,3 @@ class About extends Component {
   }
 }
 export default About;
-
-// const GridExampleColumnWidth = () => (
-//   <Grid>
-//     <Grid.Column width={4}>
-//       <Image src='/images/wireframe/image.png' />
-//     </Grid.Column>
-//     <Grid.Column width={9}>
-//       <Image src='/images/wireframe/paragraph.png' />
-//     </Grid.Column>
-//     <Grid.Column width={3}>
-//       <Image src='/images/wireframe/media-paragraph.png' />
-//     </Grid.Column>
-//   </Grid>
-// )
-
-// export default GridExampleColumnWidth
