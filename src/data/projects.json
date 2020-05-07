@@ -33,5 +33,12 @@
       "image": "/src/pic/IMG_1651.PNG",
       "description": "Personal researches, business developments and Startups",
       "link": "https://www.cartesiometrics.com/our-offer"
+    },
+    {
+      "id": 6,
+      "name": "Rock paper scissor",
+      "image": "/src/pic/rps.png",
+      "description": "a simple RPS game online",
+      "link": "https://carltesio-rps-game.netlify.app/"
     }
 ]
