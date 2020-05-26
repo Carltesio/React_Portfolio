@@ -36,7 +36,9 @@ class Projects extends Component {
           <h1 className="ui header">My Projects</h1>
           <h1>I will gather in this section the different projects I have been part of as a Owner, cofounder or collaborator.{"\n"}</h1>
 
-          <div className="ui grid">{projectsList}</div>
+          <div
+          style={{flex: 10}}
+          className="ui grid">{projectsList}</div>
 
      </div>
     );

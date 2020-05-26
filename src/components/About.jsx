@@ -14,7 +14,7 @@ class About extends Component {
 
                 My life journey has been enriched by the mix of different cultures, from Italy to the US, South America to China and currently Sweden.<br></br>
                 I started my career as a Technician in a Design Studio developing Wearable Technologies right after two years of Mechanical Engineering.<br></br>
-                Today I am fully commited to become a Fullstack developer to concentrate my whole life experience into digital products.<br></br>
+                Today I am a Fullstack developer  who loves to build amazing digital products.<br></br>
                 I am a life lover, I love to exercise outdoors,travel and understand how the "other" thinks.
               </p>
           </Grid.Column>
