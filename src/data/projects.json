@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "My Portfolio",
-      "image": "/src/pic/IMG_1696.png",
+      "image": "/src/pic/IMG_1696.jpg",
       "description": "My projects as Software Developer.",
       "link": "https://google.com"
     },
@@ -14,11 +14,11 @@
       "link": "http://www.o-range.com/en/projects/"
     },
     {
-      "id": 3,
-      "name": "Helping Hand",
-      "image": "/src/pic/hhlogo.png",
-      "description": "A digital platform to help those affected by COVID-19",
-      "link": "https://helpinghandproject.netlify.app/"
+      "id": 5,
+      "name": "My own ventures",
+      "image": "/src/pic/IMG_1651.PNG",
+      "description": "Personal researches, business developments and Startups",
+      "link": "https://www.cartesiometrics.com/our-offer"
     },
     {
       "id": 4,
@@ -28,17 +28,18 @@
       "link": "https://cocktail-challenge-ca-t1.netlify.app/"
     },
     {
-      "id": 5,
-      "name": "My own ventures",
-      "image": "/src/pic/IMG_1651.PNG",
-      "description": "Personal researches, business developments and Startups",
-      "link": "https://www.cartesiometrics.com/our-offer"
+      "id": 3,
+      "name": "Helping Hand",
+      "image": "/src/pic/hhlogo.png",
+      "description": "A digital platform to help those affected by COVID-19",
+      "link": "https://helpinghandproject.netlify.app/"
     },
     {
       "id": 6,
-      "name": "Rock paper scissor",
-      "image": "/src/pic/rps.png",
-      "description": "a simple RPS game online",
-      "link": "https://carltesio-rps-game.netlify.app/"
+      "name": "The mars times",
+      "image": "/src/pic/mars_times.png",
+      "description": "A fully functioning newspaper",
+      "link": "https://themarstimes.netlify.app/"
     }
-]
+
+  ]
