@@ -3,7 +3,9 @@ import React from "react";
 const ProjectCard = ({ project }) => {
   return (
     <>
-      <div className="ui card" style={{ width: '25rem'} }>
+      <div className="ui card" 
+      style={{ width: '25rem',
+      height: 250} }>
         <a className="image" href={project.link}>
             <img src={project.image}/>
         </a>
